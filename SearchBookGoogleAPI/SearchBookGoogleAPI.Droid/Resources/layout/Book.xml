@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    >
+
+    <TextView
+        android:id="@+id/lblTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblTitle"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/lblAuthors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblAuthors"/>
+
+    <TextView
+        android:id="@+id/lblCountPages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblCountPages"/>
+
+    <TextView
+        android:id="@+id/lblDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblDescription"
+        android:ellipsize="end"
+        android:maxLines="3"
+        />
+
+    
+</LinearLayout>
+
